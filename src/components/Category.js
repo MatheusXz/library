@@ -3,15 +3,15 @@ class Category extends React.Component {
         return (
             <>
                 <div className="row my-5">
-                    <div className="col-md-2">
+                    <div className="col-lg-4 col-md-2 col-12 ">
                         <img
-                            src="https://fakeimg.pl/130x100/"
+                            src="https://fakeimg.pl/100x80/"
                             style={{ borderRadius: '10px' }}
                             className=""
                             alt="..."
                         />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-lg-4 col-md-4 col-10">
                         <div className="text">
                             <h5 className="text-white">Titulo</h5>
                             <p className="text-white-50">Autor</p>
@@ -21,7 +21,7 @@ class Category extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-md-2 d-flex justify-content-end align-self-center">
+                    <div className="col-lg-4 col-md-2 col-2  d-flex justify-content-end align-self-center">
                         <a className="btn btn-block btn-secondary" href="#!">
                             <i className="fa-solid fa-plus" style={{ color: '#ffffff' }}></i>
                         </a>
